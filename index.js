@@ -14,7 +14,7 @@ const { Back } = require('./Models/back');
 const { Mixed } = require('./Models/Mixed');
 const app = express()
 const bodyParts = ["back", "cardio", "chest", "lower arms", "lower legs", "neck", "shoulders", "upper arms", "upper legs", "waist"]
-mongoose.connect('mongodb+srv://admin:ESkp0sknEgP1YpaK@cluster0.bp2y7j1.mongodb.net/workout').then(() => {
+mongoose.connect('**************************.mongodb.net/workout').then(() => {
     console.log('Success connecting to the database')
 })
 app.use(bodyparser.urlencoded({ extended: true }));
@@ -33,7 +33,7 @@ app.get('/api/getData', async (req, res) => {
                 offset: 0
             },
             headers: {
-                'x-rapidapi-key': 'fdbbe63d91msh00d480099f021e7p1544f3jsn7cc3705c89c8',
+                'x-rapidapi-key': '***************************************',
                 'x-rapidapi-host': 'exercisedb.p.rapidapi.com'
             }
         };
