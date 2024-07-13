@@ -34,7 +34,7 @@ const data = JSON.parse(`[
   },
   {
     "bodyPart": "back",
-    "equipment": "leverage machine",
+    "equipment": "leverage machine ",
     "gifUrl": "https://v2.exercisedb.io/image/HxqtkEM8YSC4w-",
     "id": "0015",
     "name": "assisted parallel close grip pull-up",
